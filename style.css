@@ -1,0 +1,170 @@
+.landing {
+    background-color: #917fb3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.landing ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+.landing li {
+    display: inline-block;
+    flex-grow: 1;
+    text-align: center;
+    padding: 0 10px;
+    margin-right: 0;
+    margin-left: 0;
+    font-size: 16px;
+    margin-top: -80px;
+}
+.landing li:last-child {
+    margin-right: 0;
+}
+.landing li + li {
+    margin-left: -600px;
+}
+
+.landing a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    margin-top: -65px;
+    letter-spacing: -1px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.logo {
+    font-size: 30px;
+    color: black;
+    display: inline-block;
+    vertical-align: middle;
+    height: 100px;
+    bottom: 30px;
+}
+.logo img {
+    height: 150px;
+    margin-left: 80px;
+    position: relative;
+    top: -25px;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #917fb3;
+}
+header {
+    text-align: center;
+}
+.desc {
+    margin: 30px auto auto 100px;
+    font-size: 70px;
+}
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -150px;
+}
+  input[type="text"] {
+    width: 100px;
+    padding: 3px;
+    font-size: 10px;
+    border: 3px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+  button[type="submit"] {
+    padding: 4px;
+    background-color: #e11299;
+    color: #f5c6ec;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+    outline: none;
+  }
+  button[type="submit"]:hover {
+    background-color: #9a208c;
+  }
+  .parg1 {
+    margin: 0 0 0 100px;
+  }
+  .navpar {
+    color: black;
+    font-size: 50px;
+  }
+.live-code {
+    background-color: #9a208c;
+    color: white;
+    border-radius: 7px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 30px auto auto 100px;
+}
+.live-code:hover {
+    background-color: #e11299;
+}
+.video {
+    background-color: #9a208c;
+    margin-left: 30px;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: white;
+}
+.video:hover {
+    background-color: #e11299;
+}
+.kidpic {
+    height: 180px;
+    border-radius: 50px;
+}
+.kidpic2 {
+    height: 180px;
+    border-radius: 20%;
+}
+.kidpic3 {
+    height: 180px;
+    border-radius: 50px;
+
+}
+.pics {
+display: flex;
+justify-content: center;
+align-items: center;
+transform: rotate(-20deg);
+position: relative;
+bottom: 50px;
+}
+.pics ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+.pics li {
+    margin: 10px;
+}
+
+.pics img {
+    max-width: 50%;
+    height: auto;
+    margin-left: 90%;
+    position: relative;
+    top: -150px;
+}
+.pics li + li {
+    margin-left: -277px;
+}
